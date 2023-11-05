@@ -1,0 +1,57 @@
+* { 
+    box-sizing:border-box; 
+    margin:0;
+    padding:0;  
+}
+
+body > header{ 
+    background-attachment: fixed; 
+    background-color: rgb(131, 123, 123); 
+    padding: 16px 450px; 
+    color: rgb(0, 0, 0);
+} 
+
+header li { 
+    display:list-item; 
+} 
+
+.container{ 
+    width: 1366px; 
+    margin: 0% auto;
+}
+
+.article { 
+    display:flex; 
+    flex-wrap: wrap;  
+    justify-content: space-between;
+}
+
+.article article img {
+        height: 180px;
+}
+
+.article article { 
+    width: 48%;
+}
+
+section{ 
+    margin:16px 0px;
+} 
+section h2{ 
+    margin-bottom:16px;
+} 
+
+.article article h3{ 
+    margin-top:10px;
+    margin-bottom: 10px;
+}  
+
+.article article p,
+.article article a {
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+#entretenimento,
+#tecnologia{
+    background-color: rgb(175, 171, 159);
+}
